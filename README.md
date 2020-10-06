@@ -15,6 +15,7 @@
 ## Inspiration
 >The number of breast cancer cases in India are increasing day by day at a significant rate. The main problem arises when women are unable to detect this cancer at an early stage. This can be either due to lack of money or unawareness about the topic. It's our priority to raise awareness for Breast Cancer and detect breast cancer at an early stage in life and hence we have made a software that checks the symptoms and also examines the histopathology images and predicts whether the user is having breast cancer or not. 
 
+<p align="center"><img width=80% src="images/welcome.jpeg"></p>
 
 ## What it does? 
 
@@ -25,6 +26,10 @@
 ## How we built it? 
 
 >WeCare.ai has a fully responsive website developed with the help of HTML5, CSS3 and JavaScript. The Backend section is utilizing Node.js for deployment. This website has the basic information about the research and development team and how does our team work to help the patients win the fight against breast cancer. WeCare.ai’s chatbot is assembled based on fundamentals of NLP and trained on a curated dataset that our team has collected from reputed sources and medical professionals. The data is fed into a JSON file which contains intents along a tag with patterns and their corresponding responses, as soon as our sequence model built using PyTorch classifies the seed sentence of the user to one of the tags the corresponding response is displayed instantly. The deployment of the chatbot was done on Flask on the Heroku cloud platform. The classifier used for assessing whether a user has a metastatic tumor or not was trained using Convolutional Neural Networks and managed to get an accuracy of 98.2%. The model is deployed using the Flask micro-framework in an interactive, responsive web application where a user can directly upload images for prediction. Alternatively, the users can choose to preserve the records in our database, by signing up and providing basic details.
+
+<p align="center"><img width=80% src="images/chatbot.jpeg"></p>
+<p align="center"><img width=80% src="images/histo.jpeg"></p>
+
 
 ---------------
 ## Challenges we ran into
@@ -45,6 +50,7 @@
 ## What's next?
 >In addition to the chatbot, Team EtherBots is working towards developing and incorporating speech recognition for multiple languages, in order to be able to connect with a wider population.
 Moreover, we intend to be able to identify several other diseases by using the State-of-the-art algorithms and techniques for classification and early identification of anomalies.
+<p align="center"><img width=80% src="images/donation.jpeg"></p>
 
 
 ⭐ From [TeamEtherBots](https://github.com/devangi2000/TeamEtherBots)  
