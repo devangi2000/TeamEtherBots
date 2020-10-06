@@ -1,2 +1,2 @@
-# TeamEtherBots
-A team of six individuals who came together to raise awareness about Breast Cancer.
+# breast-cancer-classification
+Leveraged CNNs to gain 98% accuracy on the model, deployed using Flask and Heroku Cloud
