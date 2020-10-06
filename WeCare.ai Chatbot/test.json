@@ -1,0 +1,339 @@
+{
+  "intents": [
+    {
+      "tag": "Breast Cancer",
+      "patterns": [
+        "What is Breast Cancer ?",
+        "Can you please explain about Breast Cancer?",
+        "Explain about Breast Cancer"
+      ],
+      "responses": [
+        "Breast cancer is a malignant tumor that develops from the cells of the breast.",
+        "Breast cancer is a disease in which cells in the breast grow out of control.",
+        "Breast cancer is cancer that develops from breast tissue"
+      ]
+    },
+    {
+      "tag": "Symptoms",
+      "patterns": [
+        "What are the symptoms of breast cancer?",
+        "Which is a well-established risk factor for breast cancer.",
+        "Which physical findings suggest breast cancer ?",
+        "symptoms for breast cancer ?",
+        "what are some symptoms of breast cancer ?"
+      ],
+      "responses": [
+        "a lump or swelling in the breast, upper chest or armpit, a change to the skin, a change in the colour of the breast, a change to the symmetry of nipple for example it has become pulled in (inverted), rash or crusting around the nipple, any unusual liquid (discharge) from either nipple, changes in size or shape of the breast"
+      ]
+    },
+    {
+      "tag": "inspect: discharge from nipples",
+      "patterns": [
+        "Explain discharge from nipples.",
+        "Tell me more about discharge from nipples due to breast cancer"
+      ],
+      "responses": [
+        "Breast cancer can cause nipple discharge, especially ductal carcinoma in situ (DCIS), an early form of breast cancer that starts in the milk ducts."
+      ]
+    },
+    {
+      "tag": "inspect: change in colour of the breast",
+      "patterns": [
+        "Explain colour change of breast in breast cancer. ",
+        "Tell me more about breast colour change due to breast cancer",
+        "how does breast cancer affect breast's colour",
+        "how does breast cancer change breast's colour",
+        "what changes does breast cancer cause to the colour of breasts"
+      ],
+      "responses": [
+        " Breast cancer can cause changes to the skin that may make it appear discolored or even bruised. The skin may be red or purple or have a bluish tint."
+      ]
+    },
+    {
+      "tag": "inspect: changes to the skin",
+      "patterns": [
+        "Explain skin change in breast cancer. ",
+        "Tell me more about skin change due to breast cancer",
+        "how does breast cancer affect skin",
+        "how does breast cancer change skin",
+        "what changes does breast cancer cause to the skin"
+      ],
+      "responses": [
+        "Breast cancer can cause changes and inflammation in skin cells that can lead to texture changes. Examples of these texture changes include: scaly skin around the nipple and areola, as though the skin is sunburned or extremely dry. skin thickening in any part of the breast."
+      ]
+    },
+    {
+      "tag": "inspect: symmetry of breast and nipple",
+      "patterns": [
+        "What does inspect: symmetry of breast and nipple mean? ",
+        "Explain symmetry of breast and nipple. ",
+        "Tell me more about symmetry of breast and nipple"
+      ],
+      "responses": [
+        "retracted nipple is a sign of tumour in the breast."
+      ]
+    },
+    {
+      "tag": "inspect: swelling of breast",
+      "patterns": [
+        "elaborate swelling of breast and nipple",
+        "Explain swelling of breast and nipple.",
+        "Tell me more about swelling of breast and nipple"
+      ],
+      "responses": [
+        "Inflammatory breast cancer can cause your breasts to swell as a result of blocked lymph vessels. Your breast tissue may also appear pitted, like an orange peel. Tumors in your breasts can manifest as hard and painful lumps."
+      ]
+    },
+    {
+      "tag": "retraction of nipple",
+      "patterns": [
+        "What is retraction of nipple? ",
+        "Explain retraction of nipple ",
+        "Tell me about retraction of nipple",
+        "Retraction of nipple means?",
+        "Retraction of nipple"
+      ],
+      "responses": [
+        "A retracted nipple is a nipple that turns inward instead of outward, except when stimulated. This type of nipple is sometimes referred to as an inverted nipple."
+      ]
+    },
+    {
+      "tag": "lump on palpating",
+      "patterns": [
+        "What is lump on palpating?",
+        "Explain Lump on palpating",
+        "Lump on palpating means?",
+        "Tell me about Lump on palpating."
+      ],
+      "responses": [
+        "Dimpling, puckering, or bulging of the skin A nipple that has changed position or an inverted nipple (pushed inward instead of sticking out) Redness, soreness, rash, or swelling"
+      ]
+    },
+    {
+      "tag": "Side Effects of Breast Cancer Therapy",
+      "patterns": [
+        "What are the long-term side effects of breast cancer treatment?",
+        "long-term side effects of breast cancer treatment.",
+        "Tell me about long-term side effects of breast cancer treatment.",
+        "side effects for breast cancer therapy",
+        "side effects for breast cancer treatment"
+      ],
+      "responses": [
+        "Possible Side effects following a breast cancer treatment/therapy are : Fatigue, Headaches, Pain and numbness (peripheral neuropathy), Dental issues, Lymphedema, Musculoskeletal symptoms, Bone loss and osteoporosis, Heart problems, New cancers, Cataracts, Blood clots, Absence of menstrual periods, Menopausal symptoms, Sexual difficulties, Infertility"
+      ]
+    },
+    {
+      "tag": "Diagnosis",
+      "patterns": [
+        "How is breast cancer diagnosed? ",
+        "What is the process of breast cancer diagnosed?",
+        "Tell me about breast cancer diagnosis."
+      ],
+      "responses": [
+        "Following are methods/practises used for breast cancer diagnosis : Breast ultrasound, Diagnostic mammogram, Magnetic resonance imaging (MRI), Biopsy, Let me know if you want to know more about any of these diagnosis practisesin detail !"
+      ]
+    },
+    {
+      "tag": "Breast ultrasound",
+      "patterns": [
+        "how is diagnosis by breast ultrasound carried out",
+        "how is breast cancer diagnosis performed by ultrasound",
+        "how does breast ultrasound work",
+        "what is breast ultrasound",
+        "explain breast ultrasound"
+      ],
+      "responses": [
+        "Ultrasound uses sound waves to produce images of structures deep within the body. Ultrasound may be used to determine whether a new breast lump is a solid mass or a fluid-filled cyst."
+      ]
+    },
+    {
+      "tag": "Diagnostic mammograms",
+      "patterns": [
+        "how is diagnosis by breast mammograms carried out",
+        "how is breast cancer diagnosis performed by mammogram",
+        "how does breast mammogram work",
+        "what is breast mammogram",
+        "explain breast mammogram"
+      ],
+      "responses": [
+        "A mammogram is an X-ray of the breast. Mammograms are commonly used to screen for breast cancer. If an abnormality is detected on a screening mammogram, your doctor may recommend a diagnostic mammogram to further evaluate that abnormality."
+      ]
+    },
+    {
+      "tag": "MRI",
+      "patterns": [
+        "how is diagnosis by breast MRI carried out",
+        "how is breast cancer diagnosis performed by MRI",
+        "how does breast MRI work",
+        "what is MRI",
+        "explain MRI"
+      ],
+      "responses": [
+        "An MRI machine uses a magnet and radio waves to create pictures of the interior of your breast. Before a breast MRI, you receive an injection of dye. Unlike other types of imaging tests, an MRI doesn't use radiation to create the images."
+      ]
+    },
+    {
+      "tag": "Biopsy",
+      "patterns": [
+        "how is diagnosis by Biopsy carried out",
+        "how is breast cancer diagnosis performed by Biopsy",
+        "how does Biopsy work",
+        "what is breast Biopsy",
+        "explain breast Biopsy"
+      ],
+      "responses": [
+        "During a biopsy, your doctor uses a specialized needle device guided by X-ray or another imaging test to extract a core of tissue from the suspicious area. Biopsy samples are sent to a laboratory for analysis where experts determine whether the cells are cancerous."
+      ]
+    },
+    {
+      "tag": "Prevention",
+      "patterns": [
+        "What are the steps to prevent it ?",
+        "What can I do to reduce my risk of breast cancer?",
+        "What preventions can be taken to reduce risk of breast cancer?",
+        "how can i prevent breast cancer ?",
+        "how do i prevent breast cancer ?",
+        "what are some measures that can be taken to prevent breast cancer ?"
+      ],
+      "responses": [
+        "maintaining a healthy weight, exercising regularly, limiting alcohol, eating nutritious food, never smoking (or quitting if you do smoke)"
+      ]
+    },
+    {
+      "tag": "Screening age for breast Cancer Diagnosis",
+      "patterns": [
+        "When should I begin the screening ?",
+        "At what age we can begin screening for breast cancer?",
+        "Age for screening of breast cancer."
+      ],
+      "responses": [
+        "Optional mammograms beginning at age 40 and Annual mammograms for women ages 45 to 54, Mammograms every two years for women 55 and older, unless they choose to stick with yearly screenings MRIs and mammograms for some women at high risk of breast cancer"
+      ]
+    },
+    {
+      "tag": "Treatments for breast cancer",
+      "patterns": [
+        "What are the treatments for breast cancer?",
+        "Explain about treatments for breast cancer",
+        "Tell me about Treatments for breast cancer",
+        "how is breast cancer treated"
+      ],
+      "responses": [
+        "Breast Cancer can be treated in more than one ways following are some of the widely employed and successful treatments around the globe : Chemotherapy, Radiation therapy, Hormonal therapy, Surgery, Let me know if you'd like a detailed information on any of the mentioned treatments"
+      ]
+    },
+    {
+      "tag": "Chemotherapy",
+      "patterns": [
+        "What is chemotherapy?",
+        "Explain Chemotherapy",
+        "Chemotherapy",
+        "Tell me about Chemotherapy"
+      ],
+      "responses": [
+        "Chemotherapy (chemo) uses anti-cancer drugs that may be given intravenously (injected into your vein) or by mouth. The drugs travel through the bloodstream to reach cancer cells in most parts of the body. Occasionally, chemo may be given directly into the spinal fluid which surrounds the brain and spinal cord.  "
+      ]
+    },
+    {
+      "tag": "Radiation Therapy",
+      "patterns": [
+        "What is Radiation Therapy?",
+        "Explain Radiation Therapy",
+        "Radiation Therapy",
+        "Tell me about Radiation Therapy."
+      ],
+      "responses": [
+        " This conventional technique uses targeted, high-energy radioactive waves to destroy tumors. Because these treatments often affect the lymph nodes, lymphedema is a common treatment-related side effect for breast cancer patients who receive surgery or radiation therapy."
+      ]
+    },
+    {
+      "tag": "Hormonal Therapy",
+      "patterns": [
+        "What is Hormonal Therapy?",
+        "Explain Hormonal Therapy",
+        "Tell me about Hormonal Therapy",
+        "Hormonal Therapy",
+		"What is Hormone Therapy?",
+        "Explain Hormone Therapy",
+        "Tell me about Hormone Therapy",
+        "Hormone Therapy"
+      ],
+      "responses": [
+        "Some types of breast cancer are affected by hormones, like estrogen and progesterone. The breast cancer cells have receptors (proteins) that attach to estrogen and progesterone, which helps them grow. Treatments that stop these hormones from attaching to these receptors are called hormone or endocrine therapy."
+      ]
+    },
+    {
+      "tag": "Surgery",
+      "patterns": [
+        "What is Surgery?",
+        "Explain Surgery",
+        "Tell me about Surgery in breast cancer"
+      ],
+      "responses": [
+        " Surgical options include a mastectomy, which removes the whole breast, and a lumpectomy, or breast-conserving surgery that removes only the tumor and the tissues around it."
+      ]
+    },
+    {
+      "tag": "Side Effects of each therapy",
+      "patterns": [
+        "What are the possible side effects of each treatment?",
+        "Explain possible side effects of each treatment",
+        "side effects of each treatment"
+      ],
+      "responses": [
+        " Surgery: Surgical procedures for breast cancer may cause short-term pain or discomfort in the treated area. Radiation therapy: Many breast cancer patients who undergo radiation therapy experience skin irritation and breast pain. Chemotherapy: Certain chemotherapy drugs may cause potential side effects like nausea, vomiting, fatigue, nerve damage, sore mouth, diarrhea, constipation and decreased blood counts.        Hormone therapy: Some hormone therapies for breast cancer may cause a wide range of side effects, such as hot flashes; vaginal discharge, dryness and irritation; irregular periods; decreased sex drive; and mood changes."
+      ]
+    },
+    {
+      "tag": "Doctors for Breast Cancer Treatment",
+      "patterns": [
+      "What type of doctor should you see if you think you have breast cancer?",
+      "what are breast cancer Doctors called."
+    ],
+      "responses": [
+      "Oncologist"
+    ]
+    },
+    {
+      "tag": "Screening of breast cancer",
+      "patterns": [
+      "How is breast cancer screening performed?",
+      "Tell me about breast cancer screening"
+    ],
+      "responses": [
+      "Early detection remains the primary defense in preventing breast cancer. Screening modalities include the following: Breast self-examination, Clinical breast examination, Mammography Ultrasonography, Magnetic resonance imaging"
+    ]
+    },
+    {
+      "tag": "Memmography hurt",
+      "patterns": [
+      "Do mammograms hurt?"
+    ],
+      "responses": [
+      "most women do not experience pain or anxiety during mammography screening."
+    ]
+    },
+    {
+      "tag": "Mammography and MRI",
+      "patterns": [
+      "What is the difference between mammography and MRI?",
+      "Explain difference between mammography and MRI",
+      "difference between mammography and MRI"
+    ],
+      "responses": [
+      "Mammography uses X-rays. MRI, short for magnetic resonance imaging, uses radio waves and a powerful magnet linked to a computer to create detailed pictures of areas inside the body."
+    ]
+    },
+    {
+      "tag": "Hormone Therapy",
+      "patterns": [
+      "Is hormone replacement therapy safe?",
+      "is it safe to undergo Hormone Therapy",
+      "is hormone therapy safe"
+    ],
+      "responses": [
+      "Approach hormone replacement therapy (HRT) with caution. Taking postmenopausal estrogen replacement increases your risk of breast cancer."
+    ]
+    }
+  ]
+}
