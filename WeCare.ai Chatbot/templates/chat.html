@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>Chatbot</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	  
+	  <style>
+		*{
+			margin:0;
+			padding: 0;
+			font-family: tahoma, sans-serif;
+			box-sizing: border-box;
+		}
+
+		html{
+			background-color: #ffdeec;
+		}
+
+		.chatbox{	
+			width: 500px;
+			min-width: 390px;
+			height:600px;
+			background: #ff96a7;
+			padding: 25px;
+			margin: 20px auto;
+			box-shadow:  0 3px #ccc;
+		}
+
+		#chatlogs{
+			padding: 10px;
+			width: 100%;
+			height: 450px;
+			overflow-x: hidden;
+			overflow-y: scroll;
+		}
+
+		#chatlogs::-webkit-scrollbar{
+			width: 10px;	
+		}
+
+		#chatlogs::-webkit-scrollbar-thumb{
+			border-radius: 5px;
+			background: rgba(0,0,0,0.1);
+		}
+
+		.chat{
+			display: flex;
+			flex-flow: row wrap;
+			align-items: flex-start;
+			margin-bottom: 10px;
+		}
+
+		.chat .user-photo{
+			width: 60px;
+			height: 60px;
+			border-radius: 50%;
+			overflow: hidden;
+		}
+		.chat .user-photo img{
+			width: 100%;
+			height: 100%
+		}
+
+		.chat .chat-message{
+			width: 80%;
+			padding: 15px;
+			margin: 5px 10px 0;
+			border-radius: 10px;
+			color: #fff;
+			font-size: 20px;
+		}
+
+		.botText .chat-message{
+			background: #ffbfc3;
+		}
+
+
+		.userText .chat-message{
+			background: #ffb4bc;
+			order: -1;
+		}
+
+		#userInput{
+			margin-top: 20px;
+			display: flex;
+			align-items: flex-start;
+		}
+
+		#userInput input{
+			background: #ffcece;
+			width: 70%;
+			height: 50px;
+			border: 2px solid #eee;
+			border-radius: 3px;
+			resize: none;
+			padding: 10px;
+			font-size: 18px;
+			color: #333;
+		}
+
+		#userInput input:focus{
+			background: #fff;
+		}
+
+		#userInput input::-webkit-scrollbar{
+			width: 10px;	
+		}
+
+		#userInput input::-webkit-scrollbar-thumb{
+			border-radius: 5px;
+			background: rgba(0,0,0,0.1);
+		}
+
+		#userInput button{
+			background: #ff96a7;
+			padding: 5px 15px;
+			font-size: 30px;
+			color: #fff;
+			border-radius: none;
+			margin: 0 10px;
+			border-radius: 15px;
+			box-shadow: 0 3px 0 #0eb2c1;
+			cursor: pointer;
+
+			-webkit-transition: background 0.2s ease;
+			-moz-transition: background 0.2s ease;
+			-o-transition: background 0.2s ease;
+		}
+
+
+		#userInput button:hover{
+			background: #13c8d9;
+		}
+
+		#mainNavbar .navbar-brand{
+		  color: #262626;
+		  font-size: 25px;
+		  font-weight: bold;
+		  letter-spacing: 2px;
+		}
+		#mainNavbar .nav-link{
+		  color: #fff;
+		}
+		#mainNavbar .navbar-nav {
+		  text-align: center;
+		}
+		#mainNavbar .nav-link a{
+		  font-family: 'Poppins', sans-serif;
+		  font-size: 23px;
+		  text-transform: uppercase;
+		  font-weight: bold;
+		}
+		#mainNavbar .nav-link:hover{
+		  color: #262626;
+		}
+		#mainNavbar{
+		  font-size: 1.5rem;
+		  font-weight: bold;
+		}
+		.navbar{
+		  padding: 0.5rem 6rem;
+		}
+		.navbar.scrolled{
+		  background-color: #f296cd;
+		  transition: background 1000ms;
+		}
+
+		div#head {
+			text-transform: uppercase;
+			text-align: center;
+			padding-top: 8.5%;
+		}
+	  </style>
+  </head>
+  <body style="background-color: #ffdeec;">
+    
+	<nav id="mainNavbar" class="navbar navbar-light  navbar-expand-lg fixed-top">
+		<a href="#" class="navbar-brand">WeCare.ai</a>
+		<button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" >
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navLinks">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a href="index-2.html" class="nav-link">HOME</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">ABOUT</a>
+				</li>
+			</ul>
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item dropdown">
+			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			          Dropdown link
+			        </a>
+			        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+			          <a class="dropdown-item" href="#">Action</a>
+			          <a class="dropdown-item" href="#">Another action</a>
+			          <a class="dropdown-item" href="#">Something else here</a>
+			        </div>
+		        </li>
+			</ul>			
+		</div>
+	</nav>
+	<div id="head" style="margin: 0 auto;" class="animate__animated animate__jackInTheBox">
+		<h3>Breast Cancer Chatbox</h3>
+    	<h5>Presenting ..... A Chatbot to clear all your Queries on breast cancer</h5>
+	</div>
+	<div class="chatbox animate__animated animate__fadeIn animate__delay-2s" style="margin-top: 5%;">
+		<div id="chatlogs">
+			<div class="chat botText">
+				<div class="user-photo"><img src="bot.JPG"></div>
+				<p class="chat-message">Hi there..How may I help you??!</p>
+			</div>
+			<!-- <div class="chat botText">
+				<div class="user-photo"><img src="bot.JPG"></div>
+				<p class="chat-message">Hello, how may I help you?</p>
+			</div>
+			<div class="chat userText">
+				<div class="user-photo"><img src="user.JPG"></div>
+				<p class="chat-message">I want to check if, I have any Breast Cancer Symptoms</p>
+			</div> -->
+		</div>
+		<div id="userInput">
+			<input id="textInput" type="text" name="msg" placeholder="Message">
+			<button id="buttonInput" type="submit">Send</button>
+		</div>
+		<script>
+			function getBotResponse() {
+			  var rawText = $("#textInput").val();
+			  var userHtml = '<div class="chat userText"><div class="user-photo"><img src="user.JPG"></div><p class="chat-message">' + rawText + '</p></div>';
+			  $("#textInput").val("");
+			  $("#chatlogs").append(userHtml);
+			  document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
+			  $.get("/get", { msg: rawText }).done(function(data) {
+				var botHtml = '<div class="chat botText"><div class="user-photo"><img src="bot.JPG"></div><p class="chat-message">' + data + '</p></div>>';
+				$("#chatlogs").append(botHtml);
+				document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
+			  });
+			}
+			$("#textInput").keypress(function(e) {
+				if ((e.which == 13) && document.getElementById("textInput").value != "" ){
+					getBotResponse();
+				}
+			});
+			$("#buttonInput").click(function() {
+				if (document.getElementById("textInput").value != "") {
+					getBotResponse();
+				}
+			});
+        </script>
+		<script>
+			$(function(){
+				$(document).scroll(function(){
+					var $nav = $("#mainNavbar");
+					$nav.toggleClass("scrolled",$(this).scrollTop()>$nav.height());
+				})
+			});
+    	</script>
+	</div>
+  </body>
+</html>
