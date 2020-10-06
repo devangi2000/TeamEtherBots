@@ -1,0 +1,128 @@
+.carousel-item{
+  height: 100vh;
+  min-height: 25px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-caption{
+  bottom: 23%;
+  color: #262626;
+}
+
+.carousel-caption h5{
+  font-size: 350%;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+  font-family: 'Merienda', cursive;
+}
+
+.carousel-caption p{
+  width: 60%;
+  margin: auto;
+  font-size: 115%;
+  line-height: 1.9;
+  font-family: 'Poppins', sans-serif;
+}
+
+.carousel-caption a{
+  text-transform: uppercase;
+  background: #262626;
+  padding: 10px 30px;
+  display: inline-block;
+  color: #fff;
+  margin-top: 15px;
+}
+
+.w-100{
+  height: 100vh;
+}
+
+@media only screen and (max-width: 767px){
+  .navbar-nav.ml-auto{
+    background: rgba(0,0,0,0.5);
+  }
+  .navbar-toggler{
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+    background: #fff;
+  }
+}
+
+.intro h1{
+  text-align: center;
+  padding-bottom: 2%;
+  font-family: 'Merienda', cursive;
+  text-decoration: underline;
+}
+
+.intro p{
+  font-family: 'Poppins', sans-serif;
+}
+
+.intro p a{
+  text-transform: uppercase;
+  background: #262626;
+  padding: 10px 30px;
+  display: inline-block;
+  color: #fff;
+  margin-top: 15px;
+}
+
+#s3{
+  padding-top: 4%;
+}
+
+#s3 h1{
+  text-align: center;
+  padding-bottom: 2%;
+  font-family: 'Merienda', cursive;
+  text-decoration: underline;
+}
+
+body{
+  background: rgb(255,181,224);
+background: linear-gradient(90deg, rgba(255,181,224,1) 34%, rgba(191,77,107,1) 100%);
+}
+
+
+#mainNavbar .navbar-brand{
+  color: #262626;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+#mainNavbar .nav-link{
+  color: #fff;
+}
+#mainNavbar .navbar-nav {
+  text-align: center;
+}
+#mainNavbar .nav-link a{
+  font-family: 'Poppins', sans-serif;
+  font-size: 23px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#mainNavbar .nav-link:hover{
+  color: #262626;
+}
+#mainNavbar{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.navbar{
+  padding: 0.5rem 6rem;
+}
+.navbar.scrolled{
+  background-color: #f296cd;
+  transition: background 1000ms;
+}
+@media(max-width: 1200px){
+  #heading h1{
+  font-weight: 100;
+  font-size: 3rem;
+}

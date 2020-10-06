@@ -1,0 +1,59 @@
+html{
+  background: rgb(255,181,224);
+background: linear-gradient(90deg, rgba(255,181,224,1) 34%, rgba(232,102,140,1) 100%);
+}
+body{
+  background: rgb(255,181,224);
+background: linear-gradient(90deg, rgba(255,181,224,1) 34%, rgba(232,102,140,1) 100%);
+}
+section{
+  background: rgb(255,181,224);
+background: linear-gradient(90deg, rgba(255,181,224,1) 34%, rgba(232,102,140,1) 100%);
+}
+h2{
+  color: black;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+img{
+  width: 80%;
+  height: 80%;
+}
+.lead{
+  color: black;
+  font-weight: 100;
+  font-size: 1.125rem;
+  line-height: 2;
+}
+#mainNavbar .navbar-brand{
+  color: #262626;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+#mainNavbar .nav-link{
+  color: #fff;
+}
+#mainNavbar .navbar-nav {
+  text-align: center;
+}
+#mainNavbar .nav-link a{
+  font-family: 'Poppins', sans-serif;
+  font-size: 23px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#mainNavbar .nav-link:hover{
+  color: #262626;
+}
+#mainNavbar{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.navbar{
+  padding: 0.5rem 6rem;
+}
+.navbar.scrolled{
+  background-color: #f296cd;
+  transition: background 1000ms;
+}
