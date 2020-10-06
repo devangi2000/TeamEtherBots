@@ -1,4 +1,16 @@
-# WeCare.ai
+<h1 align="center">WeCare.ai</h1>
+<p align="center"><i>Serving Through AI, one step at a time.</i></p>
+<div align="center"><p align="center">
+  <a href="https://github.com/devangi2000/TeamEtherBots/"><img src="https://img.shields.io/github/stars/devangi2000/TeamEtherBots" alt="Stars Badge"/></a>
+  <a href="https://github.com/devangi2000/TeamEtherBots/"><img src="https://img.shields.io/github/forks/devangi2000/TeamEtherBots" alt="Forks Badge"/></a>
+  <a href="https://github.com/devangi2000/TeamEtherBots/pulls"><img src="https://img.shields.io/github/issues-pr/devangi2000/TeamEtherBots" alt="Pull Requests Badge"/></a>
+  <a href="https://github.com/devangi2000/TeamEtherBots/issues"><img src="https://img.shields.io/github/issues/devangi2000/TeamEtherBots" alt="Issues Badge"/></a>
+  <a href="https://github.com/devangi2000/TeamEtherBots/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/devangi2000/TeamEtherBots"></a>
+  <a href="https://github.com/devangi2000/TeamEtherBots/blob/master/LICENSE"><img src="https://img.shields.io/github/license/devangi2000/TeamEtherBots?color=2b9348" alt="License   Badge"/></a></p>
+</div>
+<br>
+<p align="center"><i>Loved the project? Please visit our <a href="#">Website</a></i></p>
+<br>
 
 
 ## What it does? 
@@ -22,3 +34,5 @@ The idea itself was overwhelming, and challenged us to push our limits. We learn
 In addition to the chatbot, Team EtherBots is working towards developing and incorporating speech recognition for multiple languages, in order to be able to connect with a wider population.
 Moreover, we intend to be able to identify several other diseases by using the State-of-the-art algorithms and techniques for classification and early identification of anomalies.
 
+
+⭐ From [TeamEtherBots](https://github.com/devangi2000/TeamEtherBots)  
